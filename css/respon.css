@@ -36,14 +36,18 @@
         padding: 0px 0px 30px 0px;
         margin: 0;
     }
+
+    .about-us__block {
+        height: 25%;
+    }
     .about-us__block p {
         font-size: 13px;
     }
     .vector {
-        left: -15%;
+        left: -10%;
     }
     .vector img {
-        width: 30%;
+        width: 20%;
     }
     .about-us__left {
         padding: 0;
@@ -56,7 +60,7 @@
         width: 100%;
     }
     .about-us__right .title {
-        margin-top: 30px;
+        margin-top: 50px;
         text-align: center;
     }
     .about-us__right h2 {
@@ -125,6 +129,9 @@
         margin-bottom: 10px;
     }
     /* Feedback  */
+    .picture__item {
+        height: 20%;
+    }
     .user {
         padding: 50px 0px;
     }
@@ -145,7 +152,7 @@
         position: relative;
         width: 100%;
         text-align: left;
-        margin-bottom: 400px;
+        margin-bottom: 200px;
     }
     .user__text p {
         padding: 0 10px;
@@ -367,7 +374,7 @@
         position: relative;
         width: 100%;
         text-align: left;
-        margin-bottom: 400px;
+        margin-bottom: 150px;
     }
     .user__text p {
         padding: 0 10px;
@@ -410,6 +417,14 @@
     }
     .logo__bottom {
         padding: 5px 0;
+    }
+
+    .picture__item {
+        height: 15%;
+    }
+
+    .user__item {
+        margin-top: 100px;
     }
 }
 
@@ -464,7 +479,8 @@
 
     .picture__item {
         width: 84%;
-        bottom: -24%;
+        bottom: -10%;
         right: 8%;
+        line-height: 25px;
     }
 }
